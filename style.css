@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.drinks{
+    display: flex;
+     line-height: 1.6;
+}
+.input{
+    width: 180px;
+}
+.Select{
+    display: flex;
+    flex-direction: column;
+}
+.Name{
+    display: flex;
+    flex-direction: column;
+    
+}
+fieldset{
+    padding: 12px;
+    margin: 8px;
+}
+span,fieldset,label{
+    font-weight: bold;
+    color: black;
+}
+.forms{
+    width:70%;
+    align-items: center;
+    margin: auto;
+    border: 1px solid rgb(82, 79, 79);
+    padding: 8px;
+}
+textarea{
+    width: 280px ;
+    height: 80px;
+}
+ 
